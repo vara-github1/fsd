@@ -1,0 +1,113 @@
+@font-face {
+    font-family: netflix-sans-regular;
+    src: url();
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)) ,url(netflixback.jpg);
+    background-size: cover;
+
+}
+.navbar{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlogo{
+    width: 16%;
+    color: #e50914;
+    /* background-image: url(Netflixlogo.png); */
+}
+.signmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.langsel{
+    background-color: transparent;
+    color: white;
+    width: 125px;
+    height: 32px;
+    padding: 6px 31px;
+    border-radius: 5px;
+}
+
+
+.signin{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 32px;
+    font-size: 14px;
+    background-color: #e50914;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.head{
+    width: 100%;
+    height: 90vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    align-content: center;
+}
+.main1{
+    display: inline;
+    
+}
+
+.email{
+    width: 72%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 10px;
+    border: 0.5px solid rgb(153, 148, 148);
+}
+.email1{
+    outline: none;
+    border: none;
+    width: fit-content;
+    padding: 20px 10px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,0.6);  
+}
+.start{
+    background-color: #e50914;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    color: white;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.start:hover {
+    background-color: #ff0b18;
+}
+
